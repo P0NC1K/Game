@@ -1,3 +1,9 @@
+var _ = require('lodash');
+
+var a = [1, 2, 3, 4];
+
+console.log(_.without(a , 2,3));
+
 const selectionButtons = document.querySelectorAll('[data-selection]');
 const finalColumn = document.querySelector('[data-last-column]');
 const SELECTIONS = [

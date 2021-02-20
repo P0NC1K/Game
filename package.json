@@ -1,0 +1,22 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P0NC1K/Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P0NC1K/Game/issues"
+  },
+  "homepage": "https://github.com/P0NC1K/Game#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
